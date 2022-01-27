@@ -192,7 +192,7 @@ export default {
   mounted() {
     this.init();
     // 触发change事件
-    this.$emit("change", this.choosedDay);
+    // this.$emit("change", this.choosedDay);
 
     /**
      * @@author jacques
